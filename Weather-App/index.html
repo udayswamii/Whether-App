@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Weather Forcast</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Weather-app">
+            <h2> What's Weather Today </h2>
+            <br>
+            <div>
+                <label for="city"></label>
+                <input type="text" name="" id="cityname" required placeholder="Enter Your City Name" >
+                <button type="button" onclick="fetchData()">GET</button>
+
+            </div>
+            <br>
+            <div>
+                <span><b id="c"></b><span id="city"></span></span><br>
+                <span><b id="d"></b><span id="desc"></span></span><br>
+                <span><b id="ws"></b><span id="windspeed"></span></span><br>
+                <span><b id="t"></b><span id="temp"></span><span id="clo"></span></span><br>
+                <span><b id="h"></b><span id="hum"></span></span><br>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
